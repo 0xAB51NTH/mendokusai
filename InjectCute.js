@@ -156,7 +156,7 @@ function accessCuteThemeCSS(value) {
 }
 
 function reloadTheme() {
-   let searchRegEx = /thicc-thighs.de*/;
+   let searchRegEx = /raw.githubusercontent.com*/;
    for (var i = 0; i < document.styleSheets.length; i++) {
       if (document.styleSheets[i].href.search(searchRegEx) != -1) {
          document.styleSheets[i].disabled = true;
@@ -166,7 +166,7 @@ function reloadTheme() {
          .getElementsByTagName('body')[0]
          .insertAdjacentHTML(
             'afterbegin',
-            '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.min.css" />'
+            '<link rel="stylesheet" href="https://raw.githubusercontent.com/0xAB51NTH/mendokusai/main/cute.theme.css" />'
          );
       location.reload();
    }
@@ -178,7 +178,7 @@ window.addEventListener('load', async () => {
       .getElementsByTagName('body')[0]
       .insertAdjacentHTML(
          'afterbegin',
-         '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.min.css" />'
+         '<link rel="stylesheet" href="https://raw.githubusercontent.com/0xAB51NTH/mendokusai/main/cute.theme.css" />'
       );
    if (checkIfPopulated()) {
       accessCuteThemeCSS(backgroundImg);
