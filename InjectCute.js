@@ -1,7 +1,7 @@
 //Name: Cute
 //Author: Sarah | â™¡Sarah~#0004
 //Version: 1.2
-//Comment: fuck rito >:c
+//Comment: >:c
 
 var module = { exports: {} };
 
